@@ -1,0 +1,30 @@
+{
+  "name": "quickchat",
+  "version": "0.0.1",
+  "description": "A single page chatting application using angularjs, socket.io, express and material design lite.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shengs/quickchat.git"
+  },
+  "keywords": [
+    "quick",
+    "chat",
+    "anonymous"
+  ],
+  "author": "Shiheng Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shengs/quickchat/issues"
+  },
+  "homepage": "https://github.com/Shengs/quickchat#readme",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.14",
+    "passport": "^0.3.2"
+  }
+}

@@ -1,0 +1,97 @@
+/* MDL CSS */
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background-color: yellow;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+/*---------------------*/
+body {
+    background-color:black;
+}
+/*Welcome page*/
+#welcome {
+    background-color:black;
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+#welcome_animation {
+    height: 400px;
+}
+
+#username_box {
+    color:white;
+}
+
+#username {
+    color:white;
+}
+
+/*Chat Room*/
+.chatroom {
+    height:100%;
+    position: fixed;
+    width:100%;
+}
+
+#userList {
+    
+}
+
+#chatting {
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+
+.messageBox {
+    width: 100%;
+    position:relative;
+    height: 80%;
+    display: block;
+}
+
+.inputBox {
+    height:20%;
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    border-style: ridge;
+    background-color:black;
+}
+
+.typing {
+    float:left;
+    width:70%;
+    height:100%;
+    position: relative;
+}
+
+#typingBox {
+    font-size:30px;
+    width: 100%;
+    height: 100%;  
+    padding: 0 0 0 0;
+}
+
+.submit {
+    float:left;
+    width:30%;
+    height: 100%;
+    right:0;
+}
+
+#submitButton {
+    width:100%;
+    height:100%;
+    right:0;
+    font-size: 100px;  
+}
